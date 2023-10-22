@@ -1,0 +1,157 @@
+.icon-container {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.heading {
+    text-align: center;
+    font-family: Sans-Serif;
+    color: #f50c84;
+}
+
+.img-size {
+    height: 70px;
+    width: 70px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px #ea18ed;
+}
+
+h1 {
+    text-align: center;
+    color: #f50c84;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+    color: #f50c84;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+
+}
+
+
+input[type="submit"] {
+    background-color: #f50c84;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+    .icon-container {
+        display: flex;
+        padding: 5px;
+        margin: 5px;
+        justify-content: space-between;
+    }
+
+    .heading {
+        text-align: center;
+        font-family: Arial;
+        color: #f50c84;
+    }
+
+    .img-size {
+        height: 70px;
+        width: 70px;
+    }
+
+
+    .container {
+        max-width: 100%;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px 4px #ea18ed;
+    }
+  
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    input[type="file"] {
+        margin-bottom: 15px;
+        color: #f01657;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+
+    }
+
+
+    input[type="submit"] {
+        background-color: #ed185f;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

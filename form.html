@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='form.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon-container">
+            <img src="https://internship.aicte-india.org/uploads/logo/CORPORATE64b123ee23f9f1689330670.png" class="img-size" />
+            <h1 class="heading">vaultsofcode</h1>
+        </div>
+        <h1>Registration Form</h1>
+        <form action="#" method="post">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <div>
+                <label for="Lastname">Last Name</label>
+                <input type="text" id="Lastname" name="Lastname" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <div>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <label for="profile-picture">Profile Picture</label>
+            <input type="file" id="profile-picture" name="profile-picture">
+
+            <label>
+                <input type="checkbox" name="terms" required>
+                I agree to the Terms and Conditions
+            </label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
